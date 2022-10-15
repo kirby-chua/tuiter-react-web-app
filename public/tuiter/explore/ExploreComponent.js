@@ -2,7 +2,7 @@ import PostSummaryList from "../PostSummaryList/index.js";
 
 const ExploreComponent = () => {
     return (`
-        <div class="row mb-2">
+        <div class="row align-items-center mb-2">
             <div class="col-11">
                 <div class="input-group">
                     <span class="input-group-text wd-search-icon"><i class="fa fa-search fa"
@@ -16,7 +16,7 @@ const ExploreComponent = () => {
             <div class="col-1">
                 <a href="explore-settings.html">
                         <span>
-                    <i class="fa fa-cog fa-2x mx-auto" style="color: blue"></i>
+                    <i class="fa fa-cog fa-2x mx-auto" style="color: #2a9fd6"></i>
                 </span>
                 </a>
             </div>
