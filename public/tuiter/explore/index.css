@@ -11,3 +11,13 @@
     background-color: white;
     border-right: none;
 }
+
+.wd-follow-name{
+    z-index: 1;
+}
+
+.wd-follow-button{
+    position: absolute;
+    left: 70%;
+    z-index: 0;
+}
