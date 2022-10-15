@@ -2,6 +2,13 @@
 import WhoToFollowList from "../WhoToFollowList/index.js";
 import NavigationSideBar from "../NavigationSideBar/index.js";
 import ExploreComponent from "../ExploreScreen/ExploreComponent.js";
+
+const handleNavClick = (event) => {
+    const navbar = [$("#for-you"), $("#trending"), $("#news"), $("#sports"), $("#entertainment")];
+    navbar.map(nav => nav.attr('class', 'nav-link'));
+    const target = event.target;
+    $(target).attr('class', 'nav-link active');
+}
 function exploreComponent() {
     $('#wd-explore').append(`
   <div class="row mt-2">
@@ -15,8 +22,10 @@ function exploreComponent() {
     ${WhoToFollowList()}
    </div>
   </div>
-
    `);
+
+    const navbar = [$("#for-you"), $("#trending"), $("#news"), $("#sports"), $("#entertainment")];
+    navbar.map(nav=>nav.click(handleNavClick));
 }
 
 $(exploreComponent);

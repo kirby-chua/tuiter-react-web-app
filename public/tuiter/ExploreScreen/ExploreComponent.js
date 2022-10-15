@@ -23,19 +23,19 @@ const ExploreComponent = () => {
         </div>
     <ul class="nav mb-2 nav-tabs">
         <li class="nav-item">
-            <a class="nav-link active" href="../explore/for-you.html">For You</a>
+            <a id="for-you" class="nav-link active" href="#">For You</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="../explore/trending.html">Trending</a>
+            <a id="trending" class="nav-link" href="#">Trending</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="../explore/news.html">News</a>
+            <a id="news" class="nav-link" href="#">News</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="../explore/sports.html">Sports</a>
+            <a id="sports" class="nav-link" href="#">Sports</a>
         </li>
         <li class="nav-item d-none d-md-block">
-            <a class="nav-link" href="../explore/entertainment.html">Entertainment</a>
+            <a id="entertainment" class="nav-link" href="#">Entertainment</a>
         </li>
     </ul>
     <div class="card position-relative">
