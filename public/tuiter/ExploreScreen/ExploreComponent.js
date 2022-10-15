@@ -14,7 +14,7 @@ const ExploreComponent = () => {
                 </div>
             </div>
             <div class="col-1">
-                <a href="explore-settings.html">
+                <a href="../explore/explore-settings.html">
                         <span>
                     <i class="fa fa-cog fa-2x mx-auto" style="color: #2a9fd6"></i>
                 </span>
@@ -23,19 +23,19 @@ const ExploreComponent = () => {
         </div>
     <ul class="nav mb-2 nav-tabs">
         <li class="nav-item">
-            <a class="nav-link active" href="for-you.html">For You</a>
+            <a class="nav-link active" href="../explore/for-you.html">For You</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="trending.html">Trending</a>
+            <a class="nav-link" href="../explore/trending.html">Trending</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="news.html">News</a>
+            <a class="nav-link" href="../explore/news.html">News</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="sports.html">Sports</a>
+            <a class="nav-link" href="../explore/sports.html">Sports</a>
         </li>
         <li class="nav-item d-none d-md-block">
-            <a class="nav-link" href="entertainment.html">Entertainment</a>
+            <a class="nav-link" href="../explore/entertainment.html">Entertainment</a>
         </li>
     </ul>
     <div class="card position-relative">
