@@ -39,7 +39,7 @@ const ExploreComponent = () => {
         </li>
     </ul>
     <div class="card position-relative">
-        <img class="card-img-top" src="../images/spacex.webp">
+        <img class="card-img-top" src="../../images/spacex.webp">
             <div class="card-img-overlay card-inverse text-white"><h2 class="position-absolute bottom-0">SpaceX's
                 Starship</h2></div>
     </div>
