@@ -1,5 +1,5 @@
 import React from "react";
-import {likeTuit} from "../tuits/tuits-reducer";
+import {likeTuit} from "../reducers/tuits-reducer";
 import {useDispatch} from "react-redux";
 
 const TuitStats = (
