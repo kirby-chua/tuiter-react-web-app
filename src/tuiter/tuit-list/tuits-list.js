@@ -18,7 +18,6 @@ const TuitLists = () => {
                 Loading...
             </li>
             }
-
             {
                 tuits.map(tuit =>
                     <TuitItem
