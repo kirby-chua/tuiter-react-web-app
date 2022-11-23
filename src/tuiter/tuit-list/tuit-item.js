@@ -1,4 +1,5 @@
 import React from "react";
+import Moment from 'react-moment';
 import TuitStatsComponent from "./tuit-stats";
 import {useDispatch} from "react-redux";
 import {deleteTuitThunk} from "../../services/tuits-thunks";
@@ -31,7 +32,7 @@ const TuitItem = (
                         <i className="bi bi-x-lg float-end"
                            onClick={() => deleteTuitHandler(post._id)}></i>
                         <span className="fw-bold">{post.userName}</span> <span>{post.handle}</span>
-                        <span>&#183; {post.time}</span></div>
+                        <span> &#183; <Moment format="MMMM Do YYYY, h:mm:ss a">{post.date}</Moment></span></div>
                     <div>
                         {post.tuit}
                     </div>

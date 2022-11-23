@@ -7,22 +7,6 @@ const initialState = {
     loading: false
 }
 
-const currentUser = {
-    "userName": "NASA",
-    "handle": "nasa",
-    "image": "nasa.jpg",
-};
-
-const templateTuit = {
-    ...currentUser,
-    "topic": "Space",
-    "time": "2h",
-    "liked": false,
-    "replies": 0,
-    "retuits": 0,
-    "likes": 0,
-}
-
 const tuitsSlice = createSlice({
     name: 'tuits',
     initialState,
@@ -50,7 +34,7 @@ const tuitsSlice = createSlice({
         [createTuitThunk.fulfilled]:
             (state, { payload }) => {
                 state.loading = false
-                state.tuits.push({...payload, ...templateTuit})
+                state.tuits.push(payload)
             },
         [updateTuitThunk.fulfilled]:
             (state, { payload }) => {
